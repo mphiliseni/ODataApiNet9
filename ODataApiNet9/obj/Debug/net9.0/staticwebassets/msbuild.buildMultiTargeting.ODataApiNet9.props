@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/ODataApiNet9.props" />
+</Project>
