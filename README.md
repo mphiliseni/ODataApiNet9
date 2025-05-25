@@ -40,6 +40,6 @@ This project is a template for building an OData-compliant Web API using **ASP.N
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/ODataApiNet9.git
+https://github.com/mphiliseni/ODataApiNet9.git
 cd ODataApiNet9
 
