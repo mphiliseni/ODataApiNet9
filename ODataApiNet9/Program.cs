@@ -4,7 +4,7 @@ using ODataApiNet9.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ✅ ALL SERVICES REGISTERED HERE BEFORE `builder.Build()`
+// Add services to the container.
 builder.Services.AddControllers()
     .AddOData(opt =>
     {
@@ -19,8 +19,8 @@ builder.Services.AddControllers()
             .Count();
     });
 
-builder.Services.AddEndpointsApiExplorer(); // ✅ MOVE THIS UP BEFORE `builder.Build()`
-builder.Services.AddSwaggerGen();           // Optional Swagger
+builder.Services.AddEndpointsApiExplorer(); 
+builder.Services.AddSwaggerGen();          
 
 var app = builder.Build();
 

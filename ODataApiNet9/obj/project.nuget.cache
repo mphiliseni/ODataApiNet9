@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uGL36jhtyPY=",
+  "dgSpecHash": "HOvuuymCLdw=",
   "success": true,
   "projectFilePath": "/Users/mphilisenimhlongo/Projects/ODataApiNet9/ODataApiNet9/ODataApiNet9.csproj",
   "expectedPackageFiles": [
@@ -22,16 +22,5 @@
     "/Users/mphilisenimhlongo/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
     "/Users/mphilisenimhlongo/.nuget/packages/system.text.json/4.6.0/system.text.json.4.6.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "ODataApiNet9 depends on Microsoft.AspNetCore.OData (>= 8.0.14) but Microsoft.AspNetCore.OData 8.0.14 was not found. Microsoft.AspNetCore.OData 8.1.0 was resolved instead.",
-      "libraryId": "Microsoft.AspNetCore.OData",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

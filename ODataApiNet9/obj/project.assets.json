@@ -875,7 +875,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OData >= 8.0.14",
+      "Microsoft.AspNetCore.OData >= 8.1.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.4",
       "Swashbuckle.AspNetCore >= 8.1.2"
     ]
@@ -925,7 +925,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OData": {
             "target": "Package",
-            "version": "[8.0.14, )"
+            "version": "[8.1.0, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
@@ -958,17 +958,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "ODataApiNet9 depends on Microsoft.AspNetCore.OData (>= 8.0.14) but Microsoft.AspNetCore.OData 8.0.14 was not found. Microsoft.AspNetCore.OData 8.1.0 was resolved instead.",
-      "libraryId": "Microsoft.AspNetCore.OData",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }

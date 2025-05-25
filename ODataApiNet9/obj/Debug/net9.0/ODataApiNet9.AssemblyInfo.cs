@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ODataApiNet9")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cbc44144659d481a487478dec918ab2c35e94ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ceb30119632f71e38cca8a178a36004e3757e69b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ODataApiNet9")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ODataApiNet9")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
